@@ -156,10 +156,4 @@ If you use this code or the concepts from this research in your work, please cit
 @article{Wang_FRADiagSys,
   author = {Wang, Guohao},
   title = {FRA-DiagSys: A Transformer Winding Fault Diagnosis System for Identifying Fault Types and degrees Using Frequency Response Analysis},
-  journal = {Journal Title (Placeholder)}, % Replace with actual journal name
-  year = {Year of Publication (Placeholder)}, % Replace with actual year
-  volume = {Volume (Placeholder)}, % Replace with actual volume
-  number = {Number (Placeholder)}, % Replace with actual number
-  pages = {Pages (Placeholder)}, % Replace with actual pages
-  doi = {[DOI (Placeholder)](https://arxiv.org/pdf/2406.19623)} % Replace with actual DOI if available
-}
+  doi = {https://arxiv.org/pdf/2406.19623} 
