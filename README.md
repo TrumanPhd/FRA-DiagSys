@@ -8,7 +8,11 @@
 
 This repository contains the code implementation for **FRA-DiagSys**, a novel system for diagnosing transformer winding faults. Leveraging Frequency Response Analysis (FRA), this system employs Multilayer Perceptron (MLP) models to directly analyze FRA data and identify both the **type** and **degree** of various winding faults. The research addresses the limitations of traditional manual FRA curve interpretation by proposing a data-driven, automated approach validated on simulated transformer winding data under different configurations.
 
-The core contribution lies in demonstrating the efficacy of MLP models applied directly to raw FRA data and proposing a **two-stage diagnostic strategy** that achieves high accuracy, including 100% accuracy for a specific 10-disc transformer winding model case studied in the paper.
+The core contribution lies in demonstrating the efficacy of MLP models applied directly to raw FRA data and proposing a **two-stage diagnostic strategy** that achieves high accuracy, including 100% accuracy for a specific 10-disc transformer winding model case studied in the paper. All the above functions achieved by the code in folder1: 1. Source Code of Paper
+
+The visialization code with MATLAB can be reference in the separate folder
+
+Besides, the another two folders contain the AutoML application with autogluon structure and fusion model, in folder2 and folder3 
 
 ## Highlights
 
