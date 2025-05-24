@@ -1,0 +1,11 @@
+# Author: Guohao Wang
+# Date: 2023.10.03
+
+
+params=("G1T" "G1D" "G2T" "G2D" "G3T" "G3D")
+
+for param in "${params[@]}"
+do
+  echo "Running main.py shiyan: $param"
+  python fusion_2stage.py --shiyan "$param" --train_models 0 --model ly3  --use_tensorboard False --dropout True
+done
